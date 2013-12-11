@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Gui">
+      <UniqueIdentifier>{838727d4-ae7c-47f1-b30b-3ab8d4de33e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game">
+      <UniqueIdentifier>{64e7a892-26f4-4bf9-96fe-ac524119825b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Core">
+      <UniqueIdentifier>{4951766d-654e-4beb-812a-4315d78d2a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Events">
+      <UniqueIdentifier>{be3fc3f9-b3e9-424a-8889-3a69b9c7d3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Patterns">
+      <UniqueIdentifier>{646f30d6-f492-4f6c-b574-347bff789571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Other">
+      <UniqueIdentifier>{e22dd55f-2d0b-4fc5-8e7c-faaedbb325c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProjectMain.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Menu.cpp">
+      <Filter>Файлы исходного кода\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Bar.cpp">
+      <Filter>Файлы исходного кода\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Converter.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitives.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Map.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Object.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Snake.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Impact.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\Exception.cpp">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Event.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Event_Game.cpp">
+      <Filter>Файлы исходного кода\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Event_MainMenu.cpp">
+      <Filter>Файлы исходного кода\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Patterns\Factory.cpp">
+      <Filter>Файлы исходного кода\Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Effect.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ConfigFile.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MusicController.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gui\Menu.h">
+      <Filter>Файлы исходного кода\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Bar.h">
+      <Filter>Файлы исходного кода\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Snake.h">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Map.h">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Converter.h">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitives.h">
+      <Filter>Файлы исходного кода</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Object.h">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Impact.h">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\Singleton.h">
+      <Filter>Файлы исходного кода\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Exception.h">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Event.h">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Event_All.h">
+      <Filter>Файлы исходного кода\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Event_Game.h">
+      <Filter>Файлы исходного кода\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Event_MainMenu.h">
+      <Filter>Файлы исходного кода\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\Factory.h">
+      <Filter>Файлы исходного кода\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Effect.h">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ConfigFile.h">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MusicController.h">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

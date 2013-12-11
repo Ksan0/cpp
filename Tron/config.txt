@@ -1,0 +1,8 @@
+window_w = 800
+window_h = 600
+fullscreen = false
+borderless = false
+
+music_off = false
+track_begin = 1
+track_end   = 5
